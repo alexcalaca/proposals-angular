@@ -1,1 +1,8 @@
 <h1>Proposal list</h1>
+<!--<div> -->
+<!--  {{  proposalOne.customer }}-->
+<!--</div>-->
+
+<div *ngFor="let proposal of proposals">
+  {{  proposal.id }} -  {{  proposal.customer }}: {{proposal.portfolio_url}}
+</div>
